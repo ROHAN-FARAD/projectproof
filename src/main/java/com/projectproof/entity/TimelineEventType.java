@@ -1,0 +1,14 @@
+package com.projectproof.entity;
+
+public enum TimelineEventType {
+
+    PROJECT_CREATED,
+    MILESTONE_CREATED,
+    MILESTONE_SUBMITTED,
+    EVIDENCE_SUBMITTED,
+    MENTOR_APPROVED,
+    MENTOR_REJECTED,
+    GITHUB_CONNECTED,
+    FINAL_SUBMITTED,
+    PROJECT_VERIFIED
+}
